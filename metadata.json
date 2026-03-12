@@ -1,0 +1,5 @@
+{
+  "name": "TamilStream",
+  "description": "A YouTube Music clone optimized for Tamil music discovery with smart caching, floating player, and swipe-to-queue features.",
+  "requestFramePermissions": []
+}
