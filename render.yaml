@@ -3,7 +3,7 @@ services:
     name: tamil-stream-app
     env: node
     plan: free
-    buildCommand: npm install && npm run build
+    buildCommand: npm install --include=dev && npm run build
     startCommand: npm run serve:ssr:app
     envVars:
       - key: NODE_ENV
